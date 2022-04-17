@@ -1,0 +1,14 @@
+name: CommandRunner
+version: 1.0
+main: com.shalev.commandrunner.CommandRunner
+api-version: 1.18
+commands:
+  mapCommand:
+    usage: This command is used to map actions to blocks
+
+permissions:
+  cr.setCommand:
+    description: Permission to map an action to a block
+  cr.removeCommand:
+    description: Permission to remove an action mapped to a block
+
